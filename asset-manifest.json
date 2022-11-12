@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freelance-portfolio/static/css/main.4fca7b4d.css",
+    "main.js": "/freelance-portfolio/static/js/main.4b40b68d.js",
+    "static/js/787.7f7cf739.chunk.js": "/freelance-portfolio/static/js/787.7f7cf739.chunk.js",
+    "index.html": "/freelance-portfolio/index.html",
+    "main.4fca7b4d.css.map": "/freelance-portfolio/static/css/main.4fca7b4d.css.map",
+    "main.4b40b68d.js.map": "/freelance-portfolio/static/js/main.4b40b68d.js.map",
+    "787.7f7cf739.chunk.js.map": "/freelance-portfolio/static/js/787.7f7cf739.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fca7b4d.css",
+    "static/js/main.4b40b68d.js"
+  ]
+}
