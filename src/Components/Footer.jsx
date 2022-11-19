@@ -1,5 +1,6 @@
 import React from 'react'
 import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
+import '../Styles/Footer.css';
 
 const Footer = () => {
   return (

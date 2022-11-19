@@ -1,8 +1,9 @@
 import React from 'react'
+import '../Styles/Work.css'
 
 const Work = () => {
   return (
-    <div id='Work' className='bg-white text-black font-serif h-auto'>
+    <div id='Work' className='bg-white text-black font-serif h-auto w-auto'>
         <h1 className='text-3xl flex justify-center underline'>
             Projects
         </h1>

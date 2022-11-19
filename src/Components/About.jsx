@@ -1,10 +1,11 @@
 import React from 'react'
+import '../Styles/About.css'
 
 const About = () => {
   return (
     <>
         <div id='About' className='text-white h-screen'>
-            <div className='absolute top-1/3'>
+            <div className='absolute h-auto'>
                 <h1 className='flex underline font-serif justify-center text-3xl my-3'>
                     Get to know me!
                 </h1>

@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 390px;
+        height: 280px
+    }
+}

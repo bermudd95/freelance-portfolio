@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import '../Styles/ContactForm.css';
 
 export const ContactForm = () => {
   const form = useRef();
@@ -22,7 +23,7 @@ export const ContactForm = () => {
                 Contact Me!
             </h1>
         </div>
-        <form className='mx-52 border-solid border-2 border-black flex flex-col' id='Contact' ref={form} onSubmit={sendEmail}>
+        <form className='w-auto border-solid border-2 border-black flex flex-col' id='Contact' ref={form} onSubmit={sendEmail}>
             <div className='mt-5 mx-5'>
                 <p>
                     Please fill out this form! 
@@ -46,8 +47,8 @@ export const ContactForm = () => {
             <label className='mx-5'>
                     Message:
             </label>
-            <textarea className='m-5 w-96 h-32' name="message" />
-            <input className='w-32 mr-5 place-self-end mb-10 border-solid border-2 bg-blue-500 cursor-pointer hover:bg-cyan-500 duration-500' type="submit" value="Send" />
+            <textarea className='m-5 w-96 h-32'  />
+            <input name="message" className='w-32 mr-5 place-self-end mb-10 border-solid border-2 bg-blue-500 cursor-pointer hover:bg-cyan-500 duration-500' type="submit" value="Send" />
         </form>
     </div>
   );
