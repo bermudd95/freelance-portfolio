@@ -9,14 +9,12 @@ import Work from './Components/Work';
 function App() {
   return (
     <>
-      <div className='bg-gray-600'>
-        <Navigation />
-        <About />
-        <Work />
-        <Options />
-        <ContactForm />
-        <Footer />
-      </div>
+      <Navigation />
+      <About />
+      <Work />
+      <Options />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

@@ -3,19 +3,19 @@ import '../Styles/Options.css'
 
 const Options = () => {
   return (
-    <div id='Package' className='h-screen bg-gray-400'>
+    <div id='Package' className='h-auto bg-gray-400 pb-10'>
         <h1 className='flex justify-center underline text-3xl pt-5'>
             Price Packages
         </h1>
-        <div className='w-auto grid grid-cols-3 gap-8 mx-10 mt-20'>
-            <div className='w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer'>
+        <div className='w-auto grid grid-cols-1 gap-8 mx-10 mt-20'>
+            <div className='flex justify-center w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer rounded-md pb-5'>
                 <span>
                     <a href='#Contact'>
                         <div>
                             <h1 className='flex justify-center underline text-2xl mt-5 font-bold'>
                                 Basic
                             </h1>
-                            <ul className='w-auto flex flex-col justify-center items-center my-5 mt-16 gap-10 list-decimal'>
+                            <ul className='w-auto flex flex-col  my-5 mt-16 gap-10 list-decimal'>
                                 <li>
                                     <p>
                                         3-5 pages
@@ -39,7 +39,7 @@ const Options = () => {
                     </a>
                 </span>
             </div>
-            <div className='w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer'>
+            <div className='w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer rounded-md pb-5'>
                 <span>
                     <a href='#Contact'>
                         <div>
@@ -85,7 +85,7 @@ const Options = () => {
                     </a>
                 </span>
             </div>
-            <div className='w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer'>
+            <div className='w-auto bg-white hover:bg-orange-300 hover:opacity-50 cursor-pointer rounded-md pb-5'>
                 <span>
                     <a href='#Contact'>
                         <div>
@@ -103,7 +103,7 @@ const Options = () => {
                                         5-7 days
                                     </p>
                                 </li>
-                                <li className='flex justify-center'>
+                                <li className='flex justify-center font-bold'>
                                     All that was included in Best package plus:
                                 </li>
                                 <ul className='list-disc mx-32'>

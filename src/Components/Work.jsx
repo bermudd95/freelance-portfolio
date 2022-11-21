@@ -3,12 +3,12 @@ import '../Styles/Work.css'
 
 const Work = () => {
   return (
-    <div id='Work' className='bg-white text-black font-serif h-auto w-auto'>
+    <div id='Work' className='bg-white text-black font-serif h-auto pt-5'>
         <h1 className='text-3xl flex justify-center underline'>
             Projects
         </h1>
         <div className='flex justify-center'>
-            <div className='grid grid-cols-2 gap-32 pt-10 pb-10'>
+            <div className='grid grid-cols-2 gap-32 pt-10 pb-10 m-4'>
                 <div>
                     <span>
                         <a href='https://bermudd95.github.io/Movie-app/' className='hover:opacity-50 transition-500'>

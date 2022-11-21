@@ -4,15 +4,11 @@ import '../Styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-black text-white pb-2'>
         <div className='flex flex-row justify-between'>
             <p className='ml-5'>
                 All rights reserved
             </p>
-            <h1>
-                DB Productions
-                <DeveloperBoardIcon  className='ml-1'/>
-            </h1>
             <p className='mr-5'>
                 Copyright 2022
             </p>

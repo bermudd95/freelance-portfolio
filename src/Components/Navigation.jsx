@@ -5,24 +5,24 @@ import '../Styles/Navigation.css';
 const Navigation = () => {
   return (
     <>
-        <nav className='p-3 bg-blue-300 shadow md:flex md:justify-between md:items-center'>
-            <div className='flex justify-between items-center'>
-                <span className='text-2xl font-[Poppins]'>
+        <nav className='bg-blue-300 h-auto pb-5 shadow md:flex md:justify-between md:items-center'>
+            <div className='md:flex md:justify-between md:items-center'>
+                <span className='text-2xl font-[Poppins] flex justify-center'>
                     DB Productions
                     <DeveloperBoardIcon className='ml-2 mb-1' color='secondary' fontSize='large'/>
                 </span>
-                <ul className='flex flex-row transition-all ease-in duration-500'>
-                    <li className='mx-4 my-6 md:my-0'>
+                <ul className='flex flex-row justify-center transition-all ease-in duration-500'>
+                    <li className='mx-2 md:mx-4 my-3 md:my-6 md:my-0'>
                         <a href='#About' className='text-xl hover:text-orange-400 duration-500'>
                             About
                         </a>
                     </li>
-                    <li className='mx-4 my-6 md:my-0'>
+                    <li className='mx-2 md:mx-4 my-3 md:my-6 md:my-0'>
                         <a href='#Work' className='text-xl hover:text-orange-400 duration-500'>
                             Projects
                         </a>
                     </li>
-                    <li className='mx-4 my-6 md:my-0'>
+                    <li className='mx-2 md:mx-4 my-3 md:my-6 md:my-0'>
                         <a href='#Package' className='text-xl hover:text-orange-400 duration-500'>
                             Packages
                         </a>
