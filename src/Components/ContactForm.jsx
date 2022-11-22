@@ -32,23 +32,30 @@ export const ContactForm = () => {
                     This information will be kept confidential, none of the provided information will be shared with other parties.
                 </p>
             </div>
-            <div className='flex flex-row m-5'>
+            <div className='m-5'>
                 <label>
                     Name:
                 </label>
-                <input className='ml-3 w-52' type="text" name="user_name" />
+                <input placeholder='Full Name' className='ml-3 w-52 md:w-60' type="text" id="user_name" name="user_name" />
             </div>
             <div className='m-5'>
                 <label >
                     Email:
                 </label>
-                <input className='mx-5 w-52' type="email" name="user_email" />
+                <input placeholder='Valid Email' className='mx-5 w-52 md:w-60' type="email" id='user_email' name="user_email" />
+            </div>
+            <div className='m-5'>
+                <label>
+                    Phone Number:
+                </label>
+                <input placeholder='Phone Number' className='mx-5 w-52 md:w-60' type='phone' id='user_number' name="user_number" />
             </div>
             <label className='mx-5'>
                     Message:
             </label>
-            <textarea className='m-5 w-62 md:w-96 h-32'  />
-            <input name="message" className='w-32 mr-5 place-self-end mb-10 border-solid border-2 bg-blue-500 cursor-pointer hover:bg-cyan-500 duration-500' type="submit" value="Send" />
+            
+            <textarea className='m-5 w-62 md:w-96 h-32' name="message"  id='message' />
+            <input className='w-32 mr-5 place-self-end mb-10 border-solid border-2 bg-blue-500 cursor-pointer hover:bg-cyan-500 duration-500' type="submit" value="Send" />
         </form>
     </div>
   );
